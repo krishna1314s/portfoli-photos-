@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Krishna | Photography</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head>
+<body>
+<div class="sun" id="sun" aria-hidden="true"></div>
+
+<header class="top">
+  <a href="#top">Photography</a>
+  <nav id="nav" aria-label="Chapters"></nav>
+  <span id="lbl" aria-live="polite">Behind the camera</span>
+</header>
+
+<section class="open" id="top" data-t="morning">
+  <div class="stage" id="stage">
+    <div class="sel" id="sel">
+      <div class="s-wrap" id="sw"><img id="me" alt="Self-portrait in a mirror, face hidden behind a phone"></div>
+      <div class="s-shade"></div>
+      <i class="ring" id="ring" aria-hidden="true"></i>
+      <div class="s-text" id="st"><h1>Behind the camera</h1><p id="about-p"></p></div>
+      <p class="cue" id="cue">Scroll to look through the lens</p>
+    </div>
+    <div class="reveal" id="rv" role="img">
+      <div class="rv-in" id="rvi"><p class="lead" id="lead"></p><p class="meta" id="count"></p></div>
+    </div>
+  </div>
+</section>
+
+<section class="intro" id="intro" data-t="morning" data-n="Index">
+  <div><h2 id="intro-h"></h2><p id="intro-p"></p></div>
+  <nav class="toc" id="toc" aria-label="Contents"></nav>
+</section>
+
+<main id="main"></main>
+
+<footer><span>© <span data-name>Krishna</span>. All photographs are the photographer’s own.</span><a href="#top">Back to top</a></footer>
+
+<dialog id="lb" aria-label="Photo viewer">
+  <button class="x" aria-label="Close">×</button>
+  <button class="nv pv" aria-label="Previous photo">‹</button>
+  <button class="nv nx" aria-label="Next photo">›</button>
+  <img alt=""><p><span id="ct"></span><span id="cap"></span></p>
+</dialog>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body></html>
